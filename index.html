@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="app.js" defer></script>
+		<title>Redactr</title>
+	</head>
+	<body>
+		<div class="display">
+			<div class="main--container">
+				<div class="container">
+					<h2>REDACTR - keep your information safe</h2>
+					<div class="text">
+						<label for="text">Enter your text here: </label>
+						<textarea name="text" id="text" cols="30" rows="10"></textarea>
+					</div>
+					<div class="redact">
+						<label for="redact">Enter text to redact: </label>
+						<input type="text" id="redact" />
+					</div>
+					<button id="redact-btn">Redact Now</button>
+				</div>
+				<div id="redacted-text" class="redacted-text"></div>
+			</div>
+			<div id="stats"></div>
+		</div>
+	</body>
+</html>
